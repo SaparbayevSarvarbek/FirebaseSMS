@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.firebasesms.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_checkSmsFragment"
+            app:destination="@id/checkSmsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkSmsFragment"
+        android:name="com.example.firebasesms.fragment.CheckSmsFragment"
+        android:label="fragment_check_sms"
+        tools:layout="@layout/fragment_check_sms" >
+        <action
+            android:id="@+id/action_checkSmsFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.firebasesms.fragment.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>

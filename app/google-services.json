@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256821342817",
+    "project_id": "komtex-278b3",
+    "storage_bucket": "komtex-278b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256821342817:android:18b451eb5c98e528797020",
+        "android_client_info": {
+          "package_name": "com.example.firebasesms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX88EDNp4QfaZfVFU5IVmP_3QWyBodU9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
